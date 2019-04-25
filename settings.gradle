@@ -1,0 +1,3 @@
+rootProject.name = 'arcadet5'
+include 'main'
+

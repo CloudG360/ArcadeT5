@@ -3,7 +3,7 @@ package net.cloudsbots.arcadet5.games.devtest;
 import net.cloudsbots.arcadet5.games.Game;
 import net.cloudsbots.arcadet5.tasks.games.GameLastToLeaveWinsMainProcess;
 import net.cloudsbots.arcadet5.tasks.games.ArcadeEngineTask;
-import net.cloudsbots.archseriest.archt5.tasks.ArchTask;
+import net.cloudsbots.archseriest.archt5dev.tasks.ArchTask;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -37,6 +37,15 @@ public class GameHeaderLastToLeaveWins extends Game {
 
     @Override
     public String getDisplayname() {
-        return "Last2Leave";
+        return "100 Left 2 Leave";
+    }
+
+    @Override
+    public String getDescription() {
+        return "Who will be the last to leave? Find out in the latest battle royale game '100 Left 2 Leave'";
+    }
+    @Override
+    public String getVersion() {
+        return "ArcadeV1";
     }
 }

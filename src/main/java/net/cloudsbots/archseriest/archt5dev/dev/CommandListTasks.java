@@ -1,11 +1,9 @@
-package net.cloudsbots.archseriest.archt5.dev;
+package net.cloudsbots.archseriest.archt5dev.dev;
 
 import net.cloudsbots.archseriest.archt5.commands.Command;
-import net.cloudsbots.archseriest.archt5.extensions.BotExtension;
+import net.cloudsbots.archseriest.archt5dev.extensions.BotExtension;
 import net.dv8tion.jda.core.EmbedBuilder;
 import net.dv8tion.jda.core.entities.Message;
-
-import java.util.List;
 
 /**
  * <h2>WARNING: Test Component for preview system.</h2>

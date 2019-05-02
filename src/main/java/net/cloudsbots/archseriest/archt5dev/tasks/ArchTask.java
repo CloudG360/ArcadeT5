@@ -1,6 +1,6 @@
-package net.cloudsbots.archseriest.archt5.tasks;
+package net.cloudsbots.archseriest.archt5dev.tasks;
 
-import net.cloudsbots.archseriest.archt5.extensions.BotExtension;
+import net.cloudsbots.archseriest.archt5dev.extensions.BotExtension;
 
 import java.util.Map;
 

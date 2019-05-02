@@ -1,7 +1,7 @@
-package net.cloudsbots.archseriest.archt5.extensions;
+package net.cloudsbots.archseriest.archt5dev.extensions;
 
 import net.cloudsbots.archseriest.archt5.Bot;
-import net.cloudsbots.archseriest.archt5.tasks.TaskManager;
+import net.cloudsbots.archseriest.archt5dev.tasks.TaskManager;
 
 /**
  * WARNING: Development preview system.

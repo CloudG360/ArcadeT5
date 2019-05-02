@@ -1,4 +1,4 @@
-package net.cloudsbots.archseriest.archt5.extensions;
+package net.cloudsbots.archseriest.archt5dev.extensions;
 
 import net.cloudsbots.archseriest.archt5.components.UtilityFunctions;
 

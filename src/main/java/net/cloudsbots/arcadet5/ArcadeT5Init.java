@@ -5,7 +5,7 @@ import net.cloudsbots.arcadet5.tasks.TaskManagerBackgroundProcess;
 import net.cloudsbots.archseriest.archt5.Bot;
 import net.cloudsbots.archseriest.archt5.config.ConfigurationFile;
 import net.cloudsbots.archseriest.archt5.exceptions.InvalidConfigException;
-import net.cloudsbots.archseriest.archt5.extensions.BotExtension;
+import net.cloudsbots.archseriest.archt5dev.extensions.BotExtension;
 //import net.cloudsbots.archseriest.archt5.extensions.Validator;
 import net.cloudsbots.archseriest.archt5.plugin.DisableReason;
 import net.cloudsbots.archseriest.archt5.plugin.Plugin;

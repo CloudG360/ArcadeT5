@@ -2,7 +2,7 @@
 
 This area of the plugin include packages being constantly worked on, aimed to be added to the full ArchT5 project at a later date, but are currently not finished. The extensions being used by this package are:
 
-- TaskManager ("net.cloudsbots.archseriest.archt5.tasks")
+- TaskManager ("net.cloudsbots.archseriest.archt5dev.tasks")
   - Central task manager
   - ArchTasks
 - UtilityFuctions (For 1.0.0)
@@ -13,7 +13,7 @@ Aimed to replace the current Command Manager and the Behavior Manager, the task 
 
 **Version Aim:** 1.0.0 (No planned build ID yet)
 **Tags:**
- - `[!] BREAKING_CHANGES` @ net.cloudsbots.archseriest.archt5.tasks.ArchTask
+ - `[!] BREAKING_CHANGES` @ net.cloudsbots.archseriest.archt5dev.tasks.ArchTask
    - This is in relation to how Commands and Behaviors will have to work differently due to a new-ish structure.
  - `[!] REMOVE_ON_DEV_MERGE`
    - Only applies for components in the archt5/dev folder

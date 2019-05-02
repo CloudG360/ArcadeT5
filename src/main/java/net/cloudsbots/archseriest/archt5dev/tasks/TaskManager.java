@@ -1,4 +1,4 @@
-package net.cloudsbots.archseriest.archt5.tasks;
+package net.cloudsbots.archseriest.archt5dev.tasks;
 
 import java.util.*;
 
@@ -25,6 +25,7 @@ public class TaskManager {
     public TaskManager(){
         archTasks = new HashMap<>();
         threads = new HashMap<>();
+        threadData = new HashMap<>();
     }
 
     public String processTask(ArchTask task, Map<String, Object> vars){

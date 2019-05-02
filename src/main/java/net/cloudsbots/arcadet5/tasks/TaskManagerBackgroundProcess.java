@@ -2,11 +2,10 @@ package net.cloudsbots.arcadet5.tasks;
 
 import net.cloudsbots.archseriest.archt5.Bot;
 import net.cloudsbots.archseriest.archt5.components.Logger;
-import net.cloudsbots.archseriest.archt5.extensions.BotExtension;
-import net.cloudsbots.archseriest.archt5.tasks.ArchTask;
+import net.cloudsbots.archseriest.archt5dev.extensions.BotExtension;
+import net.cloudsbots.archseriest.archt5dev.tasks.ArchTask;
 import net.dv8tion.jda.core.EmbedBuilder;
 
-import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public class TaskManagerBackgroundProcess extends ArchTask {

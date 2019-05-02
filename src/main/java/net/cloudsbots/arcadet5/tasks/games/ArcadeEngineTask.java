@@ -4,10 +4,10 @@ import net.cloudsbots.arcadet5.ArcadeT5Init;
 import net.cloudsbots.arcadet5.games.Game;
 import net.cloudsbots.arcadet5.games.ArcadeListener;
 import net.cloudsbots.archseriest.archt5.Bot;
-//import net.cloudsbots.archseriest.archt5.extensions.Validator;
-import net.cloudsbots.archseriest.archt5.extensions.BotExtension;
-import net.cloudsbots.archseriest.archt5.tasks.ArchTask;
-import net.cloudsbots.archseriest.archt5.tasks.TaskManager;
+import net.cloudsbots.archseriest.archt5.extensions.Validator;
+import net.cloudsbots.archseriest.archt5dev.extensions.BotExtension;
+import net.cloudsbots.archseriest.archt5dev.tasks.ArchTask;
+import net.cloudsbots.archseriest.archt5dev.tasks.TaskManager;
 import net.dv8tion.jda.core.EmbedBuilder;
 import net.dv8tion.jda.core.Permission;
 import net.dv8tion.jda.core.entities.*;
@@ -135,16 +135,20 @@ public class ArcadeEngineTask extends ArchTask {
         Role lobbyrole = Bot.getBot().getJDA().getRoleById((String)tm.getThreadData(id).get("runtime_lobbyrole"));
 
         tm.putThreadData(id, "gamestart", true);
+        try {
+            while ((int) tm.getThreadData(id).get("runtime_startTimer") > 0) {
+                lobby.getManager().setTopic(":clock3: Starting game | Time till start: " + String.valueOf((int) tm.getThreadData(id).get("runtime_startTimer")) + "s | " + lobbyrole.getGuild().getMembersWithRoles(lobbyrole).size() + "/" + tm.getThreadData(id).get("engine_maxplayers")).complete();
 
-        while((int)tm.getThreadData(id).get("runtime_startTimer") > 0){
-            lobby.getManager().setTopic(":clock3: Starting game | Time till start: "+String.valueOf((int)tm.getThreadData(id).get("runtime_startTimer"))+"s | "+lobbyrole.getGuild().getMembersWithRoles(lobbyrole).size()+"/"+tm.getThreadData(id).get("engine_maxplayers")).complete();
+                if (lobbyrole.getGuild().getMembersWithRoles(lobbyrole).size() < (int) tm.getThreadData(id).get("engine_minplayers")) {
+                    tm.putThreadData(id, "runtime_startTimer", 0);
+                    tm.putThreadData(id, "gamestart", false);
+                }
 
-            if(lobbyrole.getGuild().getMembersWithRoles(lobbyrole).size() < (int) tm.getThreadData(id).get("engine_minplayers")){
-                tm.putThreadData(id, "runtime_startTimer", 0);
-                tm.putThreadData(id, "gamestart", false);
+                tm.putThreadData(id, "runtime_startTimer", (int) tm.getThreadData(id).get("runtime_startTimer") - 1);
+                TimeUnit.SECONDS.sleep(1);
             }
-
-            tm.putThreadData(id, "runtime_startTimer", (int)tm.getThreadData(id).get("runtime_startTimer") - 1);
+        } catch (Exception err){
+            cleanUp(id);
         }
     }
 
@@ -157,6 +161,8 @@ public class ArcadeEngineTask extends ArchTask {
 
         TaskManager tm = BotExtension.getBotExtended().getTaskManager();
 
+        tm.putThreadData(id, "engine_players", new ArrayList<Member>());
+
         Game header = (Game) tm.getThreadData(id).get("engine_gameheader");
         ArchTask gameclass = (ArchTask) tm.getThreadData(id).get("engine_gameclass");
         Category category = Bot.getBot().getJDA().getCategoryById((String) ArcadeT5Init.getPlugin().getGameConfig().getConfig().get("category"));
@@ -168,7 +174,7 @@ public class ArcadeEngineTask extends ArchTask {
         BotExtension.getBotExtended().getTaskManager().putThreadData(id, "runtime_lobbyid", lobby.getId());
         lobby.getManager().setTopic(":clock3: Starting soon | Not Enough Players ("+tm.getThreadData(id).get("engine_minplayers")+" min) | "+role.getGuild().getMembersWithRoles(role).size()+"/"+tm.getThreadData(id).get("engine_maxplayers")).complete();
         lobby.sendMessage(new EmbedBuilder().setTitle("Game: "+header.getDisplayname()).setDescription(header.getDescription()).addField("Version", header.getVersion(), false).setColor(Color.MAGENTA).build()).complete().pin().queue();
-        lobby.createPermissionOverride(category.getGuild().getPublicRole()).setDeny(Permission.VIEW_CHANNEL, Permission.MESSAGE_READ).queue();
+        lobby.getPermissionOverride(category.getGuild().getPublicRole()).getManager().deny(Permission.VIEW_CHANNEL, Permission.MESSAGE_READ).queue();
         lobby.createPermissionOverride(role).setAllow(Permission.MESSAGE_READ, Permission.VIEW_CHANNEL, Permission.MESSAGE_WRITE, Permission.MESSAGE_HISTORY).queue();
 
         TextChannel join = (TextChannel) category.createTextChannel("join-"+serverid).complete();
@@ -176,16 +182,17 @@ public class ArcadeEngineTask extends ArchTask {
         join.getManager().setTopic("Join Lobby by reacting | ("+tm.getThreadData(id).get("engine_minplayers")+" min) | 0/"+tm.getThreadData(id).get("engine_maxplayers")).complete();
         Message msg = join.sendMessage(new EmbedBuilder().setTitle("Join Game: "+serverid).setDescription(header.getDescription()).addField("Game", header.getDisplayname()+" ("+header.getTypeid()+")", true).addField("Version", header.getVersion(), true).addField("Players", "0/"+tm.getThreadData(id).get("engine_maxplayers"),true).setColor(Color.MAGENTA).build()).complete();
         BotExtension.getBotExtended().getTaskManager().putThreadData(id, "runtime_joinmsgid", msg.getId());
-        msg.addReaction("tada").complete();
+        msg.addReaction("\uD83C\uDF89").complete();
         msg.getChannel().sendMessage("**React with :tada: to join the lobby!**").queue();
-        join.createPermissionOverride(category.getGuild().getPublicRole()).setAllow(Permission.MESSAGE_READ, Permission.VIEW_CHANNEL, Permission.MESSAGE_HISTORY).setDeny(Permission.MESSAGE_WRITE).queue();
+        join.getPermissionOverride(category.getGuild().getPublicRole()).getManager().grant(Permission.MESSAGE_READ, Permission.VIEW_CHANNEL, Permission.MESSAGE_HISTORY).queue();
+        join.getPermissionOverride(category.getGuild().getPublicRole()).getManager().deny(Permission.MESSAGE_WRITE).queue();
         join.createPermissionOverride(role).setDeny(Permission.MESSAGE_READ, Permission.VIEW_CHANNEL).queue();
 
 
         new ArcadeListener(id, msg.getId()).register();
     }
 
-    /*protected final void requiredDataChecks(Map<String, Object> threadData){
+    protected final void requiredDataChecks(Map<String, Object> threadData){
         Validator.verifyType(threadData.get("engine_gameheader"), Game.class, "Data point 'gameheader' must be of type 'Game' for the Arcade Engine to function."); //TODO: Update ArchT5 to support adding additional info.
         Validator.verifyType(threadData.get("engine_gameclass"), ArchTask.class, "Data point 'gameclass' must be of type 'ArchTask' for the Arcade Engine to function.");
     }
@@ -208,7 +215,7 @@ public class ArcadeEngineTask extends ArchTask {
         if(!Validator.verifyTypeBool(threadData.get("arcade_specenabled"), Boolean.class)){
             threadData.put("arcade_specenabled", false);
         }
-    }*/
+    }
 
     @Override
     public void cleanUp(String dataID) {

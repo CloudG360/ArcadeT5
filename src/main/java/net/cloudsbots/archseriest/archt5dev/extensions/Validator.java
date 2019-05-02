@@ -1,4 +1,4 @@
-/*package net.cloudsbots.archseriest.archt5.extensions;
+package net.cloudsbots.archseriest.archt5.extensions;
 
 import net.cloudsbots.archseriest.archt5.exceptions.InvalidFormatException;
 
@@ -23,4 +23,4 @@ public class Validator {
             return false;
         }
     }
-}*/
+}

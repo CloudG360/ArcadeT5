@@ -2,79 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61fedb4b-27d1-4ff6-a9e6-a867fd66f96c" name="Default" comment="">
-      <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/other.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/Game.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/plugin.cfgp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__junit_junit_4_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_8_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__net_tentoria_plugins_pass_MAIN_001.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__org_avaje_ebean_2_8_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__org_bukkit_bukkit_1_8_8_R0_1_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__org_bukkit_craftbukkit_1_8_8_R0_1_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__org_spigotmc_spigot_api_1_8_8_R0_1_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/cosmetics.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../cosmetics/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/libraries/Maven__junit_junit_4_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_8_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/libraries/Maven__org_avaje_ebean_2_8_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/libraries/Maven__org_bukkit_bukkit_1_8_8_R0_1_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/libraries/Maven__org_bukkit_craftbukkit_1_8_8_R0_1_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/libraries/Maven__org_spigotmc_spigot_api_1_8_8_R0_1_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/parser.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/src/main/java/net/tentoria/parser/Commands/CommandBeginLoad.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/src/main/java/net/tentoria/parser/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../parser/src/main/resources/plugin.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/libraries/Maven__junit_junit_4_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_8_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/libraries/Maven__org_avaje_ebean_2_8_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/libraries/Maven__org_bukkit_bukkit_1_8_8_R0_1_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/libraries/Maven__org_bukkit_craftbukkit_1_8_8_R0_1_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/libraries/Maven__org_spigotmc_spigot_api_1_8_8_R0_1_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/pass2.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../../pass2/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/lasttoleave/LastToLeaveListener.java" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileContent/fileContent.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/arcadet5/ArcadeT5Init.class" afterPath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/arcadet5/ArcadeT5Init.class" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/arcadet5/games/ArcadeListener.class" afterPath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/arcadet5/games/ArcadeListener.class" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/arcadet5/games/Game.class" afterPath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/arcadet5/games/Game.class" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/arcadet5/games/devtest/GameHeaderLastToLeaveWins.class" afterPath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/arcadet5/games/devtest/GameHeaderLastToLeaveWins.class" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/arcadet5/tasks/TaskManagerBackgroundProcess.class" afterPath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/arcadet5/tasks/TaskManagerBackgroundProcess.class" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineTask.class" afterPath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineTask.class" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/arcadet5/tasks/games/GameLastToLeaveWinsMainProcess.class" afterPath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/arcadet5/tasks/games/GameLastToLeaveWinsMainProcess.class" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/archseriest/archt5/dev/CommandListTasks.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/archseriest/archt5/extensions/BotExtension.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/archseriest/archt5/extensions/UtilitiyFuctions.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/archseriest/archt5/tasks/ArchTask.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/archseriest/archt5/tasks/PreTaskScheduler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/archseriest/archt5/tasks/TaskManager$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/archseriest/archt5/tasks/TaskManager$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/cloudsbots/archseriest/archt5/tasks/TaskManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/libs/arcadet5-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/build/libs/arcadet5-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/ArcadeT5Init.java" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/ArcadeT5Init.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/ArcadeListener.java" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/ArcadeListener.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/Game.java" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/Game.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/devtest/GameHeaderLastToLeaveWins.java" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/devtest/GameHeaderLastToLeaveWins.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/TaskManagerBackgroundProcess.java" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/TaskManagerBackgroundProcess.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineTask.java" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineTask.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/GameLastToLeaveWinsMainProcess.java" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/GameLastToLeaveWinsMainProcess.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5/README.md" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/README.md" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5/dev/CommandListTasks.java" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/dev/CommandListTasks.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5/extensions/BotExtension.java" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/extensions/BotExtension.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5/extensions/UtilitiyFuctions.java" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/extensions/UtilitiyFuctions.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5/extensions/Validator.java" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/extensions/Validator.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5/tasks/ArchTask.java" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/tasks/ArchTask.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5/tasks/PreTaskScheduler.java" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/tasks/PreTaskScheduler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5/tasks/TaskManager.java" afterPath="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/tasks/TaskManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -103,12 +70,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArcadeT5Init.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/ArcadeT5Init.java">
+      <file leaf-file-name="ArcadeEngineTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-              <folding />
+            <state relative-caret-position="672">
+              <caret line="216" column="9" lean-forward="false" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,38 +86,39 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/TaskManagerBackgroundProcess.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Validator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5/extensions/Validator.java">
+      <file leaf-file-name="ArcadeT5Init.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/ArcadeT5Init.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#885#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameHeaderLastToLeaveWins.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/devtest/GameHeaderLastToLeaveWins.java">
+      <file leaf-file-name="GameLastToLeaveWinsMainProcess.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/GameLastToLeaveWinsMainProcess.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LastToLeaveListener.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/lasttoleave/LastToLeaveListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#1114#1115#0" expanded="true" />
-                <element signature="e#1150#1151#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#1237#1238#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,20 +127,8 @@
       <file leaf-file-name="ArcadeListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/ArcadeListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugin.cfgp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.cfgp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="561">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -179,58 +137,65 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameLastToLeaveWinsMainProcess.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/GameLastToLeaveWinsMainProcess.java">
+      <file leaf-file-name="ArchTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/tasks/ArchTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="340">
+              <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArcadeEngineTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineTask.java">
+      <file leaf-file-name="TaskManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/tasks/TaskManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1020">
+              <caret line="60" column="33" lean-forward="false" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArcadeEngineDocumentation.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineDocumentation.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+      <file leaf-file-name="GameHeaderLastToLeaveWins.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/devtest/GameHeaderLastToLeaveWins.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="48" column="24" lean-forward="false" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1461#1462#0" expanded="true" />
+                <element signature="e#1494#1495#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>engine_players</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -659,12 +624,18 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/plugin.cfgp" />
-        <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/ArcadeListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5/extensions/Validator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/ArcadeT5Init.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/extensions/Validator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/tasks/TaskManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/ArcadeListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/devtest/GameHeaderLastToLeaveWins.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/GameLastToLeaveWinsMainProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/lasttoleave/LastToLeaveListener.java" />
       </list>
     </option>
   </component>
@@ -675,8 +646,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="112" />
+    <option name="y" value="-14" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -696,17 +667,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="arcadet5" type="b2602c69:ProjectViewProjectNode" />
               <item name="arcadedevt5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="arcadet5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arcadedevt5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="arcadet5" type="b2602c69:ProjectViewProjectNode" />
@@ -807,6 +774,19 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="net" type="462c0819:PsiDirectoryNode" />
               <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
+              <item name="arcadet5" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
+              <item name="lasttoleave" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arcadet5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arcadedevt5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
               <item name="archseriest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -818,7 +798,7 @@
               <item name="net" type="462c0819:PsiDirectoryNode" />
               <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
               <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
+              <item name="archt5dev" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="arcadet5" type="b2602c69:ProjectViewProjectNode" />
@@ -829,7 +809,7 @@
               <item name="net" type="462c0819:PsiDirectoryNode" />
               <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
               <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
+              <item name="archt5dev" type="462c0819:PsiDirectoryNode" />
               <item name="dev" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -841,7 +821,7 @@
               <item name="net" type="462c0819:PsiDirectoryNode" />
               <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
               <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
+              <item name="archt5dev" type="462c0819:PsiDirectoryNode" />
               <item name="extensions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -853,7 +833,7 @@
               <item name="net" type="462c0819:PsiDirectoryNode" />
               <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
               <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
+              <item name="archt5dev" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -871,14 +851,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -933,9 +912,12 @@
       <module name="arcadet5" />
       <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
       <setting name="vmparams" value="" />
-      <setting name="params" value="" />
+      <setting name="params" value="build" />
       <setting name="workDir" value="file://$PROJECT_DIR$" />
       <setting name="debug" value="false" />
+      <method>
+        <option name="Make" enabled="false" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -1032,13 +1014,13 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27090302" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10144927" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23857301" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42537314" sideWeight="0.6590214" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26332623" sideWeight="0.4749164" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42537314" sideWeight="0.3409786" order="0" side_tool="true" content_ui="combo" x="988" y="89" width="660" height="763" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26332623" sideWeight="0.5250836" order="0" side_tool="true" content_ui="combo" x="988" y="89" width="660" height="763" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1059,360 +1041,229 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$USER_HOME$" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/ArcadeT5Init.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/TaskManagerBackgroundProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5/extensions/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#885#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/ArcadeListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="2737">
+          <caret line="177" column="91" lean-forward="false" selection-start-line="177" selection-start-column="91" selection-end-line="177" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.cfgp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/GameLastToLeaveWinsMainProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineTask.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/extensions/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/extensions/UtilitiyFuctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/tasks/ArchTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/tasks/TaskManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="33" lean-forward="false" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/devtest/GameHeaderLastToLeaveWins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/ArcadeListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
-          <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineDocumentation.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/devtest/GameHeaderLastToLeaveWins.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/ArcadeT5Init.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/TaskManagerBackgroundProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5/extensions/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#885#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/ArcadeListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.cfgp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/GameLastToLeaveWinsMainProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineDocumentation.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/devtest/GameHeaderLastToLeaveWins.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/ArcadeT5Init.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/dev/CommandListTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/extensions/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/extensions/UtilitiyFuctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/tasks/ArchTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5dev/tasks/TaskManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="33" lean-forward="false" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/ArcadeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/TaskManagerBackgroundProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/ArcadeT5Init.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/devtest/GameHeaderLastToLeaveWins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="48" column="24" lean-forward="false" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="216" column="9" lean-forward="false" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/GameLastToLeaveWinsMainProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/lasttoleave/LastToLeaveListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.cfgp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5/extensions/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#885#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/ArcadeT5Init.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/TaskManagerBackgroundProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/GameLastToLeaveWinsMainProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/tasks/games/ArcadeEngineDocumentation.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/ArcadeListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cloudsbots/arcadet5/games/devtest/GameHeaderLastToLeaveWins.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
           </folding>
         </state>
       </provider>

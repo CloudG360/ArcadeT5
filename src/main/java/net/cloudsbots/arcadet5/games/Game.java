@@ -1,8 +1,8 @@
 package net.cloudsbots.arcadet5.games;
 
-import net.cloudsbots.archseriest.archt5.extensions.UtilitiyFuctions;
-import net.cloudsbots.archseriest.archt5.tasks.ArchTask;
-import net.cloudsbots.archseriest.archt5.tasks.PreTaskScheduler;
+import net.cloudsbots.archseriest.archt5dev.extensions.UtilitiyFuctions;
+import net.cloudsbots.archseriest.archt5dev.tasks.ArchTask;
+import net.cloudsbots.archseriest.archt5dev.tasks.PreTaskScheduler;
 
 import java.util.Map;
 
